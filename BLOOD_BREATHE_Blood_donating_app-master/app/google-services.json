@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165178762085",
+    "project_id": "blooddonatingjava",
+    "storage_bucket": "blooddonatingjava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165178762085:android:9c76b2369f68e943a7378c",
+        "android_client_info": {
+          "package_name": "com.example.blood_donating_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165178762085-75jl94sor874cgi8g379j4ofd28c8714.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4F-cCUpsuQJMP34Rr9XU-7GBGqwK7Vw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165178762085-75jl94sor874cgi8g379j4ofd28c8714.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

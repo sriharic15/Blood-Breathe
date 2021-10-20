@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebg"
+    android:padding="16dp"
+    tools:context=".RegestrationPage">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/ivBack"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="5dp"
+            android:background="#FB0000"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:text="@string/create_account"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/member"
+            app:civ_border_width="2dp"
+            android:layout_marginBottom="5dp"
+            app:civ_border_color="#FF000000"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:background="@drawable/edittexe_background"
+            android:elevation="20dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:layout_margin="20dp"
+            android:hint="@string/phone_number"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:background="@drawable/edittexe_background"
+            android:elevation="20dp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="textLongMessage"
+            android:hint="@string/mail"
+            android:drawableStart="@drawable/ic_baseline_mail_24"
+            android:background="@drawable/edittexe_background"
+            android:elevation="20dp"
+            android:autofillHints="" />
+
+
+        <Spinner
+            android:id="@+id/bloodgroupspinner"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:entries="@array/bloodgroup"
+            android:background="@drawable/edittexe_background"
+            android:elevation="20dp" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="textLongMessage"
+            android:hint="@string/city"
+            android:drawableStart="@drawable/ic_baseline_my_location_24"
+            android:background="@drawable/edittexe_background"
+            android:elevation="20dp"
+            android:autofillHints="" />
+
+
+        <EditText
+            android:id="@+id/registerpassword"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/edittexe_background"
+            android:elevation="16dp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/rbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/became_a_donor"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/sigin_in_button"
+            android:textSize="22sp"
+            android:padding="5dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+

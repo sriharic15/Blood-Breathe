@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Blood_donating_app</string>
+    <string name="todo">TODO</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="name">NAME</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="mail">MAIL</string>
+    <string name="city">CITY</string>
+    <string name="password">PASSWORD</string>
+    <string name="became_a_donor">BECAME A DONOR</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navgation drawer</string>
+    <string-array name="bloodgroup">
+        <item>SELECT YOUR BLOOD GROUP</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+</resources>

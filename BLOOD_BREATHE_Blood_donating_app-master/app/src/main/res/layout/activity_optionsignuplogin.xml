@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebg"
+    tools:context=".Optionsignuplogin">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:src="@drawable/logo"/>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginLeft="20dp"
+            android:elevation="50dp"
+            android:background="@drawable/edittexe_background"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/signupbtn"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="SIGNUP"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/sigin_in_button"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

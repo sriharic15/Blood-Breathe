@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:background="#Be5025"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="BB MEMBER"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="250dp"
+        android:background="@drawable/sigin_in_button"
+        android:layout_gravity="center"
+        android:src="@drawable/member"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profilename"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profilebloodgroup"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profileemail"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePhonenumber"
+        android:layout_margin="20sp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilecity"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+<Button
+    android:id="@+id/backbutton"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:background="@drawable/sigin_in_button"
+    android:text="BACK"/>
+
+
+
+</LinearLayout>
